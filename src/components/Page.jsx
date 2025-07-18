@@ -20,5 +20,4 @@ export default async function Page() {
         />
       ))}
     </main>
-  )
-}
+  )}
