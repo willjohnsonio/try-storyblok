@@ -1,5 +1,5 @@
 // src/app/page.tsx
-import { getStoryblokApi } from '@/lib/storyblok'
+import { getStoryblokApi } from './lib/storyblok'
 import { StoryblokServerComponent } from '@storyblok/react/rsc'
 
 export default async function Page() {
