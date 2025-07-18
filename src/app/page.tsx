@@ -1,4 +1,4 @@
-import { getStoryblokApi } from '@/lib/storyblok';
+import { getStoryblokApi } from '@/lib/Storyblok';
 import { StoryblokStory } from '@storyblok/react/rsc';
 
 export default async function Home() {
