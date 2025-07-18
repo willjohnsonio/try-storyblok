@@ -13,7 +13,7 @@ export default async function Page() {
   // 2. Render your components directly
   return (
     <main>
-      {blok.body?.map((nestedBlok: any) => (
+      {blok.body?.map((nestedBlok) => (
         <StoryblokServerComponent
           blok={nestedBlok}
           key={nestedBlok._uid}
